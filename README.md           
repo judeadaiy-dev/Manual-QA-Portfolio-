@@ -1,1 +1,26 @@
+# 🚀 Manual QA Portfolio - QA Engineering Team
 
+Welcome to our professional Quality Assurance (QA) portfolio. We are a dedicated Manual QA team focused on ensuring software quality, discovering critical bugs, and delivering seamless user experiences.
+
+---
+
+## 👥 Team Members
+* **Bariq** - Manual QA Tester & Bug Reporter
+* **Malaak** - Manual QA Tester & Bug Reporter
+
+---
+
+## 🛠️ Testing Skills & Expertise
+* **Testing Types:** Functional Testing, Exploratory Testing, UI/UX Testing, Regression Testing.
+* **Documentation:** Bug Reports, Test Cases, Test Scenarios.
+* **Tools & Platforms:** GitHub, Google Workspace, Jira (Workflow Knowledge), AcademyBugs, SauceDemo.
+* **Bug Report Standard:** Title, Preconditions, Steps to Reproduce (STR), Expected Result, Actual Result, Severity & Priority.
+
+---
+
+## 📂 Repository Structure
+* `/Bug-Reports/Bariq/` - Contains structured bug reports documented by Bariq.
+* `/Bug-Reports/Malaak/` - Contains structured bug reports documented by Malaak.
+
+---
+*Dedicated to building bug-free digital products and maintaining high software quality standards.*
