@@ -32,8 +32,3 @@ The shopping cart should successfully update and reflect the new quantity specif
 
 ## ❌ Actual Result
 The quantity does not update correctly, restricting the user from setting a quantity higher than 2.
-
----
-
-## 📷 Attachments
-*(Include your screenshot from AcademyBugs here)*
