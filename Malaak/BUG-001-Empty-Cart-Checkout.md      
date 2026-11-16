@@ -1,0 +1,41 @@
+# Bug Report: Order Completion Without Cart Validation or User Information
+
+## 📋 Bug Information
+* **Bug ID:** BUG-001
+* **Module:** Cart & Checkout Process
+* **Issue Type:** Critical Functional & UI Bug
+* **Severity:** Critical
+* **Priority:** High
+* **Environment:** Google Chrome / Android Device
+
+---
+
+## 🎯 Description
+The system allows users to complete a purchase order without validating cart contents or requesting required user shipping/billing information. Additionally, critical UI elements such as the "Add to Cart" button and user profile section are missing.
+
+---
+
+## 🔄 Steps to Reproduce (STR)
+1. Open the website on Google Chrome (Android).
+2. Log in to the user account.
+3. Browse the product catalog.
+4. Attempt to proceed to checkout / complete an order without adding items to the cart.
+
+---
+
+## ✅ Expected Result
+* The user profile section should be accessible after logging in.
+* Product pages must clearly display accurate details, images, and an "Add to Cart" button.
+* The system must prevent order completion if the cart is empty and require valid user details before checkout.
+
+---
+
+## ❌ Actual Result
+* The "Add to Cart" button and user profile section are missing.
+* Product images and details fail to display accurately.
+* The system completes the order process with an empty cart and without requesting user information.
+
+---
+
+## 📷 Attachments
+*(Insert screenshot here)*
