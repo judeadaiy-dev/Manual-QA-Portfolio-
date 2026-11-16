@@ -1,1 +1,39 @@
+# Bug Report: Cart Quantity Restriction Error
 
+## 📋 Bug Information
+* **Bug ID:** BUG-001
+* **Module:** Shopping Cart / Checkout
+* **Issue Type:** Functional Bug
+* **Severity:** Medium
+* **Priority:** High
+* **Environment:** AcademyBugs Web Application (Chrome Browser)
+
+---
+
+## 🎯 Description
+When attempting to update the product quantity in the shopping cart to a value greater than 2, the system fails to update properly or restricts the quantity unexpectedly.
+
+---
+
+## 🔄 Steps to Reproduce (STR)
+1. Open the website: `https://academybugs.com`
+2. Search for a product or browse the shop.
+3. Add a product to the shopping cart.
+4. Go to the Cart page (`/my-cart/`).
+5. Change the product quantity input to a value greater than 2 (e.g., 3).
+6. Click the **Update** (تحديث) button.
+
+---
+
+## ✅ Expected Result
+The shopping cart should successfully update and reflect the new quantity specified by the user (greater than 2) based on stock availability.
+
+---
+
+## ❌ Actual Result
+The quantity does not update correctly, restricting the user from setting a quantity higher than 2.
+
+---
+
+## 📷 Attachments
+*(Include your screenshot from AcademyBugs here)*
