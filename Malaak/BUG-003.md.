@@ -1,5 +1,5 @@
 **Title:** Current Day Mismatch and Time Discrepancy in the "Time at Work" Weekly Chart
-**Ticket ID:** BUG-004
+**Ticket ID:** BUG-003
 **Project / Module:** OrangeHRM — Dashboard (Time at Work Module)
 **Type:** Functional / UI
 **Severity:** Low
@@ -35,4 +35,4 @@ The "Time at Work" chart should accurately highlight and sync the current calend
 Tested on mobile view; although "0h 2m Today" is tracked, the visual representation on the weekly chart graph shows an inconsistency with the actual calendar day.
 
 **Evidence / Screenshot:**
-![Dashboard Time Chart Mismatch](../attachments/dashboard-time-chart-mismatch.png)
+![Dashboard Time Chart Mismatch](attachments/dashboard-time-chart-mismatch.png)
