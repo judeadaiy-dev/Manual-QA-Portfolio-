@@ -1,0 +1,38 @@
+**Title:** Current Day Mismatch and Time Discrepancy in the "Time at Work" Weekly Chart
+**Ticket ID:** BUG-004
+**Project / Module:** OrangeHRM — Dashboard (Time at Work Module)
+**Type:** Functional / UI
+**Severity:** Low
+**Priority:** Medium
+**Reproduction Rate:** 1 out of 1 attempts (100%)
+
+**Environment:**
+- Version / Build: OrangeHRM OS 5.9 (Mobile Web View)
+- Device & OS: Infinix (Android)
+- Browser: Google Chrome Mobile
+- Account: Admin
+- Date & Time: November 18, 2026 — 4:30 PM
+
+**Reference:**
+System time synchronization logic and live work-hour tracking on the mobile dashboard interface.
+
+**Attachments:**
+- `dashboard-time-chart-mismatch.png` (Mobile screen showing the weekly chart and current day layout)
+
+**Steps to Reproduce:**
+1. Log in to the OrangeHRM system using a mobile device (Infinix / Android) via Google Chrome.
+2. Navigate to the **Dashboard** module.
+3. Locate the **Time at Work** widget containing the weekly bar chart (`This Week`).
+4. Observe the highlighted day bars (Mon, Tue, Wed) and check the current tracked time ("0h 2m Today").
+
+**Actual Result:**
+The weekly chart highlights/focuses incorrectly or displays a mismatch with the actual current day's active tracking column, failing to properly align today's recorded hours on the correct day column.
+
+**Expected Result:**
+The "Time at Work" chart should accurately highlight and sync the current calendar day, correctly displaying today's recorded work hours under the exact current day column.
+
+**Additional Notes:**
+Tested on mobile view; although "0h 2m Today" is tracked, the visual representation on the weekly chart graph shows an inconsistency with the actual calendar day.
+
+**Evidence / Screenshot:**
+![Dashboard Time Chart Mismatch](../../attachments/dashboard-time-chart-mismatch.png)
